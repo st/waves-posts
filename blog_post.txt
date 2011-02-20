@@ -1,0 +1,57 @@
+Happy On Rails
+
+Vous développez des applications Web, ou un backend pour vos applications mobiles ?
+Un petit sondage tout d'abord.
+Vous pensez que Ruby On Rails c'est :
+ 1 un jouet "un framework basé sur un langage dynamique pfff !" 
+ 2 ça veut dire quoi MVC ?
+ 3 j'ai plus intéressant à faire que de répondre à cette question
+
+Loin de moi l'idée de caricaturer notre profession, voici ma fine analyse des réponses possibles.
+Vous avez répondu :
+ 1 Je devine en vous le développeur JEE ou .Net, le syndrome de Stockholm est votre seule excuse.
+ 2 J'imagine en vous le développeur PHP. Le codeur, le vrai.
+ 3 J'ai beaucoup de respect pour vous, et ne voudrais pas vous déranger plus longtemps alors que vous
+êtes déjâ en train d'utiliser Ruby on Rails.
+
+J'aurais aimé écrire un long post, bien détaillé, avec tout plein de références.
+Un truc avec des tableaux bourré de stats.
+Mais je suis un grand faignant et je préfère m'inspirer de la courbe "Gartner Hype Cycle" pour vous donner mon sentiment sur cette plate-forme.
+
+---
+
+Rails 3
+
+L'esprit bricole des premières versions a clairement disparu.
+Cette nouvelle version met l'accent sur la modularité
+
+La maturité des Gems.
+L'écosystème autour de Ruby on Rails est sauvage. 
+Pour un même problème, plusieurs solutions s'affrontent.
+Aujourd'hui les meilleurs ont gagné. 
+
+TODO def
+2 exemples :
+Gestion de l'authentification ? 
+Devise. Ce gem fait quasiment tout à votre place. 
+Vous n'avez plus à recoder les problèmes récurents liés à l'authentification.
+
+Upload de fichiers ?
+Paperclip. Idem
+
+Déploiement avec heroku.
+C'est proprement bluffant.
+Les serveurs partagés supportant Ruby sont toujours très rares.
+Il vous fallait donc vous coltiner l'install d'un serveur dédié, l'administrer, utiliser
+Capistrano pour déployer, ...
+Puis est arrivé heroku.
+Pour déployer votre projet :
+-- git push heroku master
+
+
+
+
+
+
+
+
