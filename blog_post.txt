@@ -1,57 +1,56 @@
 Happy On Rails
 
-Vous développez des applications Web, ou un backend pour vos applications mobiles ?
-Un petit sondage tout d'abord.
-Vous pensez que Ruby On Rails c'est :
- 1 un jouet "un framework basé sur un langage dynamique pfff !" 
- 2 ça veut dire quoi MVC ?
- 3 j'ai plus intéressant à faire que de répondre à cette question
+Vous pensez que Ruby On Rails est un jouet ? 
+"un framework basé sur un langage dynamique pfff !" 
+Et que ce framework ne sert qu'à ecrire un moteur de blog en 15 minutes ?
 
-Loin de moi l'idée de caricaturer notre profession, voici ma fine analyse des réponses possibles.
-Vous avez répondu :
- 1 Je devine en vous le développeur JEE ou .Net, le syndrome de Stockholm est votre seule excuse.
- 2 J'imagine en vous le développeur PHP. Le codeur, le vrai.
- 3 J'ai beaucoup de respect pour vous, et ne voudrais pas vous déranger plus longtemps alors que vous
-êtes déjâ en train d'utiliser Ruby on Rails.
+J'ai choisi de m'inspirer de la courbe "Gartner Hype Cycle" pour vous donner mon sentiment sur cette plate-forme.
+"Gartner Hype Cycles provide a graphic representation of the maturity and adoption of technologies and applications, and how they are potentially relevant to solving real business problems and exploiting new opportunities".
+Ce graphe offre une représentation graphique de la maturité et l'adoption des technologies et applications,
+et comment elles peuvent effectivement résoudre des problèmes réels et exploiter de nouvelles opportunités.
 
-J'aurais aimé écrire un long post, bien détaillé, avec tout plein de références.
-Un truc avec des tableaux bourré de stats.
-Mais je suis un grand faignant et je préfère m'inspirer de la courbe "Gartner Hype Cycle" pour vous donner mon sentiment sur cette plate-forme.
+Ou est Ruby on Rails sur cette courbe ?
+Une analyse, forcément subjective, plus loin.
 
 ---
 
-Rails 3
+slide 1 
+La libération.
+Ecrire des applications pour le Web ne doit plus nécessiter des milliers de lignes d'XML.
+Les idées mises en oeuvre par Rails chamboulent tout :
+* DRY (le Don't Repeat Yourself de Pragmatic Programmer)
+* Convention over Configuration
 
-L'esprit bricole des premières versions a clairement disparu.
-Cette nouvelle version met l'accent sur la modularité
+slide 2
+On s'emballe.
+Les gurus du monde Web et de l'agilité sont enthousiastes.
+Certains s'investissent effectivement dans cette plate-forme.
 
-La maturité des Gems.
-L'écosystème autour de Ruby on Rails est sauvage. 
-Pour un même problème, plusieurs solutions s'affrontent.
-Aujourd'hui les meilleurs ont gagné. 
+slide 3
+"No silver bullet."
+Les difficultés pour déployer des applications (en comparaison avec PHP par exemple) sont un frein.
+L'apparente simplicité et le côté magique de certains raccourcis demandent du temps avant d'être maitrisés.
 
-TODO def
-2 exemples :
-Gestion de l'authentification ? 
-Devise. Ce gem fait quasiment tout à votre place. 
-Vous n'avez plus à recoder les problèmes récurents liés à l'authentification.
+slide 4
+Critiquer Rails est à la mode.
+"je vous l'avais bien dit que XXX c'était bidon"
+Remplacer XXX par n'importe quelle technologie disruptive.
 
-Upload de fichiers ?
-Paperclip. Idem
+slide 5
+Silence, on bosse.
+Et pendant que certains critiquent, d'autres travaillent à la maturité de la plate-forme.
 
-Déploiement avec heroku.
-C'est proprement bluffant.
-Les serveurs partagés supportant Ruby sont toujours très rares.
-Il vous fallait donc vous coltiner l'install d'un serveur dédié, l'administrer, utiliser
-Capistrano pour déployer, ...
-Puis est arrivé heroku.
-Pour déployer votre projet :
--- git push heroku master
+slide 6
+Juste un moteur de blog en 15 minutes ?
 
+3 références parmi les plus significatives.
+C'est marrant en 1996, beaucoup pensaient que Java c'était pour faire des applets...
 
 
-
-
+links
+http://www.pragprog.com/the-pragmatic-programmer
+keynote dispo ici : 
+https://github.com/st/waves-posts
 
 
 
